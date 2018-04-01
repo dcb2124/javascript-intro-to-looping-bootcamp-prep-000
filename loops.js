@@ -2,19 +2,18 @@ function forLoop(array){
   
   for(var i = 0; i < 25; i++){
     
-    string = ""
+    string = `I am ${i} strange loop`
     
     if (i === 1){
-      string = "I am 1 strange loop."
+      string = string + "."
     } else {
-      string = `I am ${i} strange loops.`
+      string = string + "s."
     }
     
     array.push(string)
     
-    
+    return array
     
   }
-  return array
   
 }
