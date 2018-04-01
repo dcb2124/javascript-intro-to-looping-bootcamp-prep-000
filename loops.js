@@ -1,6 +1,6 @@
 function forLoop(array){
   
-  for(var i = 1; i < 25; i++){
+  for(var i = 0; i < 25; i++){
     
     string = `I am ${i} strange loop`
     
