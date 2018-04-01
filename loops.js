@@ -10,10 +10,14 @@ function forLoop(array){
       string = string + "s."
     }
     
-    array[i] = string
+    array.push(string)
     
     return array
     
   }
   
 }
+
+newArray = []
+
+forLoop(newArray)
