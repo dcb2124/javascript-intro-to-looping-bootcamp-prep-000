@@ -7,7 +7,7 @@ function forLoop(array){
     if (i == 1){
       string = string + "."
     } else {
-      string = string + ".s"
+      string = string + "s."
     }
     
     array[i] = string
