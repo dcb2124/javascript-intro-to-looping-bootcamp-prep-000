@@ -7,7 +7,7 @@ function forLoop(array){
     if (i === 1){
       string = "I am 1 strange loop."
     } else {
-      string = 'I am ${i} strange loops."
+      string = `I am ${i} strange loops.`
     }
     
     array.push(string)
