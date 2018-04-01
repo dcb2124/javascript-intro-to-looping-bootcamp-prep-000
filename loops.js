@@ -12,8 +12,8 @@ function forLoop(array){
     
     array.push(string)
     
-    return array
+    
     
   }
-  
+  return array
 }
