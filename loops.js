@@ -10,6 +10,9 @@ function forLoop(array){
       string = string + ".s"
     }
     
+    array[i] = string
+    
+    return array
     
   }
   
