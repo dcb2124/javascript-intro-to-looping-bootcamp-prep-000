@@ -17,7 +17,3 @@ function forLoop(array){
   }
   
 }
-
-newArray = []
-
-forLoop(newArray)
