@@ -2,12 +2,12 @@ function forLoop(array){
   
   for(var i = 0; i < 25; i++){
     
-    string = `I am ${i} strange loop`
+    string = ""
     
     if (i === 1){
-      string = string + "."
+      string = "I am 1 strange loop."
     } else {
-      string = string + "s."
+      string = 'I am ${i} strange loops."
     }
     
     array.push(string)
